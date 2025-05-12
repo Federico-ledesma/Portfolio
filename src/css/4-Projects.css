@@ -1,0 +1,28 @@
+
+.projects{
+  margin-bottom: 8rem;
+}
+
+.projects-title{
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+
+.hola{
+  width: 400px;
+}
+
+.chau{
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+
+article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}

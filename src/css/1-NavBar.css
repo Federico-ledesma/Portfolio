@@ -1,0 +1,10 @@
+
+.offcanvas-title{
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link:hover{
+    /* background-color: #b15445; */
+    background: #e13a4b;
+}
