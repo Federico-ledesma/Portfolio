@@ -6,6 +6,31 @@ import Projects from './components/4-Projects'
 import Contact from './components/5-Contact'
 import Footer from './components/6-Footer'
 
+import deku1 from '../src/images/projects/deku-1.webp'
+import deku2 from '../src/images/projects/deku-2.webp'
+import deku3 from '../src/images/projects/deku-3.jpeg'
+
+import eren1 from '../src/images/projects/eren-1.jpg'
+import eren2 from '../src/images/projects/eren-2.webp'
+import eren3 from '../src/images/projects/eren-3.jpeg'
+
+import goku1 from '../src/images/projects/goku-1.png'
+import goku2 from '../src/images/projects/goku-2.jpg'
+import goku3 from '../src/images/projects/goku-3.webp'
+
+import solo1 from '../src/images/projects/solo-1.jpg'
+import solo2 from '../src/images/projects/solo-2.jpeg'
+import solo3 from '../src/images/projects/solo-3.webp'
+
+import taiki1 from '../src/images/projects/taiki-1.webp'
+import taiki2 from '../src/images/projects/taiki-2.webp'
+import taiki3 from '../src/images/projects/taiki-3.webp'
+
+import tanjiro1 from '../src/images/projects/tanjiro-1.avif'
+import tanjiro2 from '../src/images/projects/tanjiro-2.webp'
+import tanjiro3 from '../src/images/projects/tanjiro-3.avif'
+
+
 function App() {
 
   return (
@@ -22,15 +47,15 @@ function App() {
 
         <section className='d-flex justify-content-center flex-column'>
           <article className='projects'>
-            <Projects image1={"deku-1.webp"} image2={"deku-2.webp"} image3={"deku-3.jpeg"} ids={"deku"}/>
-            <Projects image1={"goku-1.png"} image2={"goku-2.jpg"} image3={"goku-3.webp"} ids={"goku"}/>
-            <Projects image1={"eren-1.jpg"} image2={"eren-2.webp"} image3={"eren-3.jpeg"} ids={"eren"}/>
+            <Projects image1={deku1} image2={deku2} image3={deku3} ids={"deku"}/>
+            <Projects image1={goku1} image2={goku2} image3={goku3} ids={"goku"}/>
+            <Projects image1={eren1} image2={eren2} image3={eren3} ids={"eren"}/>
           </article>
             
           <article>
-            <Projects image1={"solo-1.jpg"} image2={"solo-2.jpeg"} image3={"solo-3.webp"} ids={"solo"}/>
-            <Projects image1={"taiki-1.webp"} image2={"taiki-2.webp"} image3={"taiki-3.webp"} ids={"taiki"}/>
-            <Projects image1={"tanjiro-1.avif"} image2={"tanjiro-2.webp"} image3={"tanjiro-3.avif"} ids={"tanjiro"}/>
+            <Projects image1={solo1} image2={solo2} image3={solo3} ids={"solo"}/>
+            <Projects image1={taiki1} image2={taiki2} image3={taiki3} ids={"taiki"}/>
+            <Projects image1={tanjiro1} image2={tanjiro2} image3={tanjiro3} ids={"tanjiro"}/>
           </article>
         </section>
 

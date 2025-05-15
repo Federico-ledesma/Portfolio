@@ -1,5 +1,7 @@
 import '../css/4-Projects.css'
 
+
+
 function Projects({image1, image2, image3, ids}) {
     return (
             
@@ -7,13 +9,13 @@ function Projects({image1, image2, image3, ids}) {
             <div id={ids} className="carousel slide hola" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="0">
-                  <img src={`/images/projects/${image1}`} className="d-block w-100 chau" alt="..."/>
+                  <img src={image1} className="d-block w-100 chau" alt="..."/>
                 </div>
                 <div className="carousel-item" data-bs-interval="0">
-                  <img src={`/images/projects/${image2}`} className="d-block w-100 chau" alt="..."/>
+                  <img src={image2} className="d-block w-100 chau" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                  <img src={`/images/projects/${image3}`} className="d-block w-100 chau" alt="..."/>
+                  <img src={image3} className="d-block w-100 chau" alt="..."/>
                 </div>
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target={`#${ids}`} data-bs-slide="prev">
