@@ -1,0 +1,37 @@
+
+.container-about-me{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.title-about{
+    margin: 5rem;
+    text-align: center;
+}
+
+.container-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-about-text{
+    width: 50%;
+    text-align: center;
+    text-wrap: balance;
+}
+
+
+.img-about{
+    width: 250px;
+    height: 250px;
+}
+
+.text-about{
+    list-style: none;
+}

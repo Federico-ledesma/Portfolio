@@ -5,6 +5,7 @@ import Skills from './components/3-Skills'
 import Projects from './components/4-Projects'
 import Contact from './components/5-Contact'
 import Footer from './components/6-Footer'
+import AboutMe from './components/7-AboutMe'
 
 import deku1 from '../src/images/projects/deku-1.webp'
 import deku2 from '../src/images/projects/deku-2.webp'
@@ -40,11 +41,8 @@ function App() {
 
       <main className='bg-main'>
         <Presentacion />
-        <Skills />
-      
-      
-      <h2 id='Projects' className='w-100 text-center projects-title'>My Projects</h2>
 
+        <h2 id='Projects' className='w-100 text-center projects-title'>My Projects</h2>
         <section className='d-flex justify-content-center flex-column'>
           <article className='projects'>
             <Projects image1={deku1} image2={deku2} image3={deku3} ids={"deku"}/>
@@ -58,6 +56,12 @@ function App() {
             <Projects image1={tanjiro1} image2={tanjiro2} image3={tanjiro3} ids={"tanjiro"}/>
           </article>
         </section>
+
+        <AboutMe />
+
+        <Skills />
+      
+      
 
         <Contact />
 
