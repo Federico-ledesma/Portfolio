@@ -1,12 +1,9 @@
 import '../css/4-Projects.css'
 
-
-
 function Projects({image1, image2, image3, ids}) {
     return (
             
-            
-            <div id={ids} className="carousel slide hola" data-bs-ride="carousel">
+          <div id={ids} className="carousel slide hola" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="0">
                   <img src={image1} className="d-block w-100 chau" alt="..."/>
@@ -27,6 +24,12 @@ function Projects({image1, image2, image3, ids}) {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
+
+
+
+
+           
+            
           
      
     )

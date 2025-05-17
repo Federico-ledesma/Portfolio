@@ -1,5 +1,5 @@
 import '../css/6-AboutMe.css'
-import avatar from '../images/avatar.jpeg';
+import avatar from '../images/avatar.webp';
 
 function AboutMe() {
     return(
