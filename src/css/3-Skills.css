@@ -27,6 +27,12 @@ main{
     height: 50%;;
 }
 
+.skills{
+    background-color: #002b47;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 .skills-list{
     display: flex;
     min-width: 250px;

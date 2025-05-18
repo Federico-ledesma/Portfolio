@@ -13,7 +13,7 @@ function Skills() {
             
             <div className="skills-container">
 
-                <div className='text-center'>
+                <div className='text-center skills'>
                     <h3>Frontend Developer</h3>
                     <div className='skills-list'>
                         <FaHtml5 size={40}/>
@@ -23,7 +23,7 @@ function Skills() {
                     </div>
                 </div>
 
-                <div className='text-center'>
+                <div className='text-center  skills'>
                     <h3>Backend Developer</h3>
                     <div className='skills-list'>
                         <FaNodeJs size={40}/>
@@ -33,7 +33,7 @@ function Skills() {
                     </div>
                 </div>
                 
-                <div className='text-center'>
+                <div className='text-center skills'>
                     <h3>Dev Tools</h3>
                     <div className='skills-list'>
                         <FaGitAlt size={40}/>

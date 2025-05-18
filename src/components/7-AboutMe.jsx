@@ -4,19 +4,19 @@ import avatar from '../images/avatar.webp';
 function AboutMe() {
     return(
         <section className='container-about-me'>
-            <h2 className='title-about'>Sobre Mi</h2>
+            <h2 className='title-about'>About Me</h2>
 
             <div className='container-about'>
                 <div className='container-about-text'>
-                    <h3>¡Hola! Soy Federico Ledesma</h3>
+                    <h3>Hi! I'm Federico Ledesma</h3>
                     <p>
-                        Soy desarrollador frontend con un año de experiencia creando interfaces web modernas, funcionales y accesibles. Me especializo en React y disfruto transformar ideas en experiencias digitales pulidas y dinámicas. Durante este año he trabajado en proyectos que abarcan desde componentes reutilizables hasta aplicaciones completas, siempre enfocado en buenas prácticas, rendimiento y una excelente experiencia de usuario.
-                        <ul className='text-about'>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                        </ul>
+                        I'm a frontend developer with one year of experience building modern, functional, and accessible web interfaces. I specialize in React and enjoy turning ideas into polished, dynamic digital experiences. Over the past year, I've worked on projects ranging from reusable components to full-fledged applications, always focused on best practices, performance, and delivering an excellent user experience.
                     </p>
+                    <ul className='text-about'>
+                        <li>🧠 Un año de experiencia como desarrollador frontend enfocado en React.</li>
+                        <li>🎯 Apasionado por crear interfaces limpias, accesibles y centradas en el usuario.</li>
+                        <li>🛠️ Experiencia trabajando con componentes reutilizables y aplicaciones completas.</li>
+                    </ul>
                 </div>
                 
                 <div className='container-about-img'>

@@ -64,8 +64,8 @@ function App() {
       
       
 
-        <Contact />
 
+        <Contact />
 
       </main>
       <Footer />

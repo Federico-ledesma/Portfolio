@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
+    background-color: #002b47;
 }
 .title-about{
     margin: 5rem;
@@ -22,8 +22,6 @@
 
 .container-about-text{
     width: 50%;
-    text-align: center;
-    text-wrap: balance;
 }
 
 
@@ -34,4 +32,5 @@
 
 .text-about{
     list-style: none;
+    text-align: start;
 }

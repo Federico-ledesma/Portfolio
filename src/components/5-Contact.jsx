@@ -2,10 +2,10 @@ import '../css/5-Contact.css'
 
 function Contact() {
     return(
-        <div className='form d-flex justify-content-center align-items-center flex-column'>
-            <h2 id='Contact' className="skills-title">Contact Me</h2>
+        <div id='Contact' className='form d-flex justify-content-center align-items-center flex-column container-formulario'>
+            <h2  className="contact-title">Contact Me</h2>
             
-            <form className="d-flex justify-content-center flex-column align-items-center gap-5">
+            <form className="d-flex justify-content-center flex-column align-items-center gap-5 form-container">
                 <div>
                     <label htmlFor="nombre">Name: </label>
                     <input type="text" placeholder="John Doe" id="nombre" />    
