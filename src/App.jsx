@@ -57,9 +57,9 @@ function App() {
           </article>
         </section>
 
-
         <AboutMe />
 
+        
         <Skills />
       
       

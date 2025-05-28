@@ -6,20 +6,20 @@ function Contact() {
             <h2  className="contact-title">Contact Me</h2>
             
             <form className="d-flex justify-content-center flex-column align-items-center gap-5 form-container">
-                <div>
-                    <label htmlFor="nombre">Name: </label>
-                    <input type="text" placeholder="John Doe" id="nombre" />    
+                <div className='input-container'>
+                    <label htmlFor="nombre" className='label-input'>Name: </label>
+                    <input type="text" className='input' placeholder="John Doe" id="nombre" />    
                 </div>
 
-                <div>
-                    <label htmlFor="">Email: </label>
-                    <input type="text" placeholder="JohnDoe@gmail.com" id="" />
+                <div className='input-container'>
+                    <label htmlFor="" className='label-input'>Email: </label>
+                    <input type="text" className='input' placeholder="JohnDoe@gmail.com" id="" />
                 </div>
 
     
-                <div>
-                    <label htmlFor="">Content: </label>
-                    <input type="text" placeholder="Add some message here..." id="" />
+                <div className='input-container'>
+                    <label htmlFor="" className='label-input'>Content: </label>
+                    <input type="text" className='input' placeholder="Add some message here..." id="" />
                 </div>                
             </form>
         </div>

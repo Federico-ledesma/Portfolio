@@ -7,9 +7,9 @@ import '../css/3-Skills.css'
 
 function Skills() {
     return(
-        <section id='Skills'>
+        <section >
             
-            <h2 className="skills-title">My Skills</h2>
+            <h2 id='Skills' className='skills-title'>My Skills</h2>
             
             <div className="skills-container">
 

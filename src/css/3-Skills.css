@@ -15,7 +15,6 @@ main{
 
 .skills-title{
     text-align: center;
-    margin-bottom: 5rem;
 }
 
 .skills-container{
@@ -41,3 +40,21 @@ main{
     flex-wrap: wrap;
 }
 
+
+/** Celular  */
+@media (max-width: 768px) {
+    
+
+    .skills-title{
+        font-size: 3rem;
+    }
+
+    .skills-container{
+        margin-top: -4rem;
+    }
+
+    .skills{
+        margin-bottom: 2rem;
+    }
+
+}

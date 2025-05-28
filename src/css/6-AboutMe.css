@@ -1,15 +1,16 @@
 
+
 .container-about-me{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #002b47;
+    padding-top: 5rem;
+    margin-top: 12rem;
+    
 }
 .title-about{
-    margin: 5rem;
     text-align: center;
 }
 
@@ -28,9 +29,41 @@
 .img-about{
     width: 250px;
     height: 250px;
+
 }
 
 .text-about{
     list-style: none;
     text-align: start;
+}
+
+
+/** ANIMACIONES */
+
+/** Celulares  */
+@media (max-width: 768px) {
+
+    .title-about{
+        font-size: 3rem       
+    }
+
+    .container-about-text{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .about-title{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem; 
+    }
+
+    .about-parrafo{
+        font-size: 1.2rem;
+    }
+
+    .text-about{
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
 }
