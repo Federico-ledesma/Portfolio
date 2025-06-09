@@ -10,6 +10,8 @@
 
 .hola{
   width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px black;
 }
 
 .chau{
@@ -25,4 +27,24 @@ article{
   justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
+}
+
+/** Celulares */
+
+@media (max-width: 768px) {
+  .projects-title{
+    font-size: 3rem;
+  }
+
+  .hola{
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px black;
+}
+
+.chau{
+  width: 90%;
+  height: 250px;
+  border-radius: 20px;
+}
 }

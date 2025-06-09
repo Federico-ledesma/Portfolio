@@ -1,8 +1,9 @@
 .fondo-japon{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg);
+    background-image: url(../images/fondo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    mask-image: linear-gradient(black 80%, transparent);
     height: 100vh;
     width: 100%;
 

@@ -1,5 +1,5 @@
 main{
-    background-image: linear-gradient(to bottom, #7d5367, #6f4c64, #614560, #523f5c, #433956);
+    background: linear-gradient(327deg,rgba(8, 0, 0, 1) 0%, rgba(4, 42, 71, 1) 36%, rgba(1, 13, 13, 1) 100%);
     color: #fff;
 }
 
@@ -13,9 +13,6 @@ main{
 
 
 
-.skills-title{
-    text-align: center;
-}
 
 .skills-container{
     display: flex;
@@ -27,10 +24,19 @@ main{
 }
 
 .skills{
-    background-color: #002b47;
+    outline: 2px inset #1FA5FF;
     padding: 2rem;
     border-radius: 1rem;
+    box-shadow: 10px 0px 50px rgb(5, 5, 5);
+    transition: all 0.5s ease-in-out;
+
 }
+
+.skills:hover{
+    transform: scale(1.2);
+}
+
+
 
 .skills-list{
     display: flex;
@@ -45,8 +51,8 @@ main{
 @media (max-width: 768px) {
     
 
-    .skills-title{
-        font-size: 3rem;
+    #Skills{
+        padding-top: 2rem;
     }
 
     .skills-container{
