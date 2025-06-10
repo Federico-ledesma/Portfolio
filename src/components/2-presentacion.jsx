@@ -7,9 +7,9 @@ function Presentacion() {
     return (
         <>
                 <div className="fondo-japon">
-                    <h1>FrontEnd Developer</h1>
-                    <h2>Hola soy Federico Ledesma</h2>
-                    <aside>
+                    <h1 className="presentacion">FrontEnd Developer</h1>
+                    <h2 className="presentacion">Hola soy Federico Ledesma</h2>
+                    <aside className="presentacion">
                         <FaGithub className="iconos"/>
                         <FaSquareXTwitter className="iconos"/>
                         <FaLinkedin className="iconos"/>
