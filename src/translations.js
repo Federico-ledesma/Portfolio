@@ -24,7 +24,7 @@ const translations = {
 
         /* About Me */
         titleAboutMe: 'Sobre Mi',
-        parraphAboutMe: "Soy un desarrollador frontend con un año de experiencia construyendo interfaces web modernas, funcionales y accesibles. Me especializo en React y disfruto convirtiendo ideas en experiencias digitales pulidas y dinámicas. Durante el último año, he trabajado en proyectos que van desde componentes reutilizables hasta aplicaciones completas, siempre centrado en las mejores prácticas, el rendimiento y la entrega de una excelente experiencia de usuario.",
+        parraphAboutMe: "Soy un desarrollador frontend con un año de experiencia construyendo interfaces web modernas, funcionales y accesibles. Me especializo en React y disfruto convirtiendo ideas en experiencias digitales pulidas y dinámicas.",
         list1: "🧠 Un año de experiencia como desarrollador frontend enfocado en React.",
         list2: "🎯 Apasionado por crear interfaces limpias, accesibles y centradas en el usuario.",
         list3: "🛠️ Experiencia trabajando con componentes reutilizables y aplicaciones completas.",
@@ -65,7 +65,7 @@ const translations = {
 
         /* About Me */
         titleAboutMe: 'About Me',
-        parraphAboutMe: "I'm a frontend developer with one year of experience building modern, functional, and accessible web interfaces. I specialize in React and enjoy turning ideas into polished, dynamic digital experiences. Over the past year, I've worked on projects ranging from reusable components to full-fledged applications, always focused on best practices, performance, and delivering an excellent user experience.",
+        parraphAboutMe: "I'm a frontend developer with one year of experience building modern, functional, and accessible web interfaces. I specialize in React and enjoy turning ideas into polished, dynamic digital experiences.",
         list1: "🧠 One year of experience as a frontend developer focused on React.",
         list2: "🎯 Passionate about creating clean, accessible and user-centric interfaces.",
         list3: "🛠️ Experience working with reusable components and complete applications.",

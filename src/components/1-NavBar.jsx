@@ -9,7 +9,7 @@ function NavBar(props) {
        
         <nav className="navbar navbar-dark bg-dark fixed-top">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">Noxius Dev </a>
+              <a className="navbar-brand font-nav" href="#">Noxius Dev </a>
               
               <div className='container-banderas'>
                 {props.click}
