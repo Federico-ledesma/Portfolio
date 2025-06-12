@@ -1,4 +1,13 @@
+.container-banderas{
+    width: 87%;
+    display: flex;
+    justify-content: right;
+}
 
+.banderas{
+    width: 3rem;
+    object-fit: cover;
+}
 
 .offcanvas-title{
     width: 100%;
@@ -8,4 +17,10 @@
 .nav-link:hover{
     /* background-color: #b15445; */
     background: #e13a4b;
+}
+
+@media (max-width: 768px) {
+    .container-banderas{
+        width: 52%;
+    }
 }

@@ -6,6 +6,8 @@ import Projects from './components/4-Projects'
 import Contact from './components/5-Contact'
 import Footer from './components/6-Footer'
 import AboutMe from './components/7-AboutMe'
+import { useState } from 'react'
+import translations from './translations'
 
 import deku1 from './images/projects/deku-1.webp'
 import deku2 from './images/projects/deku-2.webp'
@@ -31,23 +33,41 @@ import tanjiro1 from './images/projects/tanjiro-1.webp'
 import tanjiro2 from './images/projects/tanjiro-2.webp'
 import tanjiro3 from './images/projects/tanjiro-3.webp'
 
+
 function App() {
 
+    const [language, setLanguage] = useState("es")
+
+    const t = translations[language]
+
+    const toggleLanguage = () => {
+      setLanguage(prev => (prev === "es" ? "en" : "es"))
+    }
+  
   return (
     <>
-      <NavBar/>
-    
 
+      <NavBar 
+        click={<button onClick={toggleLanguage}>{<img className='banderas'  src={t.bandera} alt={t.idioma} width={t.width}/>}</button>}
+        nav1={t.nav1} 
+        nav2={t.nav2} 
+        nav3={t.nav3} 
+        nav4={t.nav4}
+      />
       <main className='bg-main'>
-        <Presentacion />
 
-        <h2 id='Projects' className='w-100 text-center projects-title'>My Projects</h2>
+        <Presentacion 
+          titleFront={t.titleFront}
+          titlePresentation={t.titlePresentation}
+        />
+
+        <h2 id='Projects' className='w-100 text-center projects-title'>{t.titleProjects}</h2>
         <section className='d-flex justify-content-center flex-column'>
           
             <article className='projects'>
                 <Projects image1={deku1} image2={deku2} image3={deku3} ids={"deku"}/>
                 <Projects image1={eren1} image2={eren2} image3={eren3} ids={"eren"}/>
-                <Projects image1={goku1} image2={goku2} image3=   {goku3} ids={"goku"}/>
+                <Projects image1={goku1} image2={goku2} image3={goku3} ids={"goku"}/>
             </article>
             
           <article>
@@ -57,18 +77,40 @@ function App() {
           </article>
         </section>
 
-        <AboutMe />
+
+        <AboutMe 
+          titleAboutMe={t.titleAboutMe}
+          titlePresentation={t.titlePresentation}
+          parraphAboutMe={t.parraphAboutMe}
+          list1={t.list1}
+          list2={t.list2}
+          list3={t.list3}
+        />
+        
 
         
-        <Skills />
+        <Skills 
+          skills1={t.skills1}
+          skills2={t.skills2}
+          skills3={t.skills3}
+        />
       
       
 
 
-        <Contact />
+        <Contact 
+          titleContact={t.titleContact}
+          label1={t.label1}
+          label2={t.label2}
+          label3={t.label3}
+          place={t.place}
+        />
 
       </main>
-      <Footer />
+      <Footer 
+        derechos={t.derechos}
+        hecho={t.hecho}
+      />
 
 
 
